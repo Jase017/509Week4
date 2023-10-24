@@ -1,3 +1,13 @@
+board = [
+    "......................",
+    "......##########......",
+    "......#........#......",
+    "......##......##......",
+    ".......##....#######..",
+    "....######.......###..",
+    "....#..........####..",
+    "....##############....",
+]
 def flood_fill(input_board, old, new, x, y):
     # If the coordinate is out of bounds or the value at (x, y) is not the old value, return.
     for s in input_board:
