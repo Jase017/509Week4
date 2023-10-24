@@ -2,7 +2,7 @@ def flood_fill(input_board, old, new, x, y):
     # If the coordinate is out of bounds or the value at (x, y) is not the old value, return.
     if x < 0 or x >= len(input_board[0]) or y < 0 or y >= len(input_board) or input_board[y][x] != old:
         return input_board
-
+1
     # Convert the row string to a list for mutability.
     row = list(input_board[y])
     # Replace the old value with the new value.
